@@ -1,0 +1,22 @@
+# Per-person Kvantify licence — never commit. Issued per user, bound to your email.
+license.txt
+**/license.txt
+
+# Qrunch run artefacts and persister cache
+output/
+**/output/
+*.qdk
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# OS
+.DS_Store
